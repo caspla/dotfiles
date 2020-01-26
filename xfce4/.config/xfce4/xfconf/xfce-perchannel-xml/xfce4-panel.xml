@@ -37,7 +37,7 @@
       <property name="flat-buttons" type="bool" value="false"/>
       <property name="sort-order" type="uint" value="4"/>
       <property name="middle-click" type="uint" value="1"/>
-      <property name="include-all-monitors" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
       <property name="include-all-workspaces" type="bool" value="false"/>
     </property>
     <property name="plugin-15" type="string" value="separator">

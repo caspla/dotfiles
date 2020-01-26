@@ -1,5 +1,5 @@
 {
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "git.enableSmartCommit": true,
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
