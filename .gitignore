@@ -2,7 +2,6 @@
 !*/
 !.gitignore
 !/bash
-!/keepassxc
 !/vscode/.config/Code/User/settings.json
 !/xfce4/.config/xfce4/panel/launcher-**
 !/xfce4/.config/xfce4/terminal/**
