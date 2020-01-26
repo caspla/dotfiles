@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Firefox
+Exec=/home/pascal/opt/firefox/firefox %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/pascal/opt/firefox/browser/chrome/icons/default/default32.png
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;application/x-mimearchive;x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true
+X-XFCE-Source=file:///home/pascal/.local/share/applications/firefox.desktop
