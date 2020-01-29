@@ -76,12 +76,11 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
+    alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
-
-    #alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -112,7 +111,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# append ~/bin to PATH variable
 export PATH="$HOME/bin:$PATH"
+
+export DOTFILES="$HOME/dotfiles"
 
 # start keychain
 eval $(keychain --eval -Q --quiet)
+
+# disable bell in Xorg
+if [ -n "$DISPLAY" ]; then
+  xset b off
+fi
