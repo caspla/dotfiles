@@ -12,12 +12,12 @@
       </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
       <property name="XF86Display" type="empty"/>
       <property name="&lt;Super&gt;p" type="empty"/>
       <property name="&lt;Primary&gt;Escape" type="empty"/>
       <property name="XF86WWW" type="empty"/>
       <property name="XF86Mail" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
       <property name="Print" type="empty"/>
     </property>
     <property name="custom" type="empty">
@@ -29,15 +29,15 @@
       </property>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Super&gt;space" type="string" value="xfce4-appfinder --collapsed">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-taskmanager"/>
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal"/>
       <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Primary&gt;Print" type="string" value="xfce4-screenshooter -w"/>
+      <property name="&lt;Super&gt;space" type="string" value="xfce4-popup-whiskermenu">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -109,11 +109,11 @@
       <property name="Right" type="string" value="right_key"/>
       <property name="Down" type="string" value="down_key"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Alt&gt;Return" type="string" value="fullscreen_key"/>
       <property name="&lt;Super&gt;Up" type="string" value="tile_up_key"/>
       <property name="&lt;Super&gt;Down" type="string" value="tile_down_key"/>
       <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
+      <property name="&lt;Super&gt;Return" type="string" value="maximize_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">
