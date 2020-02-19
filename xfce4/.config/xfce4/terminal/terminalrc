@@ -33,4 +33,5 @@ ColorBold=#D8DEE9
 ColorBoldUseDefault=FALSE
 ColorPalette=rgb(0,0,0);rgb(244,27,48);rgb(136,213,110);rgb(244,235,88);rgb(65,187,255);rgb(197,80,176);rgb(106,199,226);rgb(229,233,240);rgb(0,0,0);rgb(244,27,48);rgb(136,213,110);rgb(244,235,88);rgb(65,187,255);rgb(197,80,176);rgb(106,199,226);rgb(236,239,244)
 TabActivityColor=#88C0D0
+FontName=Monospace 11
 
